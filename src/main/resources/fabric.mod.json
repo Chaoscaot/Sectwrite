@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sectwrite",
+  "version": "${version}",
+  "name": "Sectwrite",
+  "description": "Write section signs in Chat and every where else",
+  "authors": [
+    "Chaoscaot"
+  ],
+  "contact": {
+    "website": "https://chaoscaot.de"
+  },
+  "license": "AGPL-3.0",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "sectwrite.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14",
+    "minecraft": "1.19"
+  }
+}
